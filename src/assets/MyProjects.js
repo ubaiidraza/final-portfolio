@@ -68,7 +68,7 @@ const projects = [
     description:
       "A restaurant landing page designed with modern aesthetics. Built using HTML and CSS, showcasing menu, contact, and booking info.",
     gitLink: "https://github.com/ubaiidraza/Responsive-salt-paper",
-    liveLink: "",
+    liveLink: "https://salt-and-peper-by-haseeb.netlify.app/",
     isLive:  true,
   },
   {
@@ -76,7 +76,7 @@ const projects = [
     description:
       "A frontend clone of Noon Shopping App built with HTML and CSS. Highlights include responsive design, product grid, and promotional banners.",
     gitLink: "https://github.com/ubaiidraza/noon-com",
-    liveLink: "",
+    liveLink: "https://noon-web-clone.netlify.app/",
     isLive: true,
   }
 ];

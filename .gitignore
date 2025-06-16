@@ -1,24 +1,42 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
 # Logs
-logs
-*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Environment variables
+.env
+.env.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# OS-specific files
 .DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# Vercel settings (optional, if not needed on GitHub)
+.vercel/
+
+# IDE folders
+.idea/
 *.suo
-*.ntvs*
+*.ntvs_analysis.dat
 *.njsproj
 *.sln
-*.sw?
+
+# Optional log & cache folders
+.cache/
+.next/
+out/
+coverage/
+
+# Mac system file
+.AppleDouble
+.LSOverride
