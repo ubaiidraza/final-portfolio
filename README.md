@@ -3,16 +3,18 @@
 Welcome to my personal portfolio website built with **React**, **Tailwind CSS**, and **Framer Motion**. This website showcases my projects, skills, and background in software engineering.
 
 ## 🚀 Live Demo
-<!--👉 [View Live Portfolio](https://your-portfolio-link.vercel.app) -->
-Coming Soon
+<👉 [View Live Portfolio](https://final-portfolio-ten-phi.vercel.app/) 
+
 
 ---
 
 ## 📚 About Me
-I hold a **Bachelor's degree** in Electrical and Electronics Engineering and a **Master's degree** in Robotics and Smart Technologies.  
-Currently, I’m a **software engineer** based in England, UK, passionate about building scalable software solutions.  
-When I’m not coding, I enjoy ⚽ playing football and 🎮 gaming.
+I'm a Frontend Developer from Karachi, Pakistan, trained at Saylani Mass IT Training (SMIT) in Web Development.
 
+I love building clean, responsive, and interactive web applications using modern tools like React.js, Vite, Tailwind CSS, and Framer Motion. My journey started with an interest in design, which led me into frontend development.
+
+When I’m not coding, you’ll find me playing ⚽ football or 🎮 gaming.
+I'm always open to freelance work and collaborations — let’s connect and create something awesome!
 ---
 
 ## ⚡ Tech Stack
