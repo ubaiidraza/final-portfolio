@@ -49,7 +49,7 @@ const AboutMe = () => {
 
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/ubaid-raza"
+              href="https://www.linkedin.com/in/ubaid-raza-dev/"
               rel="noopener noreferrer"
             >
               <button className="text-white cursor-pointer p-4 border w-[185px] bg-transparent transition-all duration-300 ease-in hover:bg-white hover:text-black">

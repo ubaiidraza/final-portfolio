@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
-import pdf from "../assets/GideonAyeniResume.pdf"
+import pdf from "../assets/Ubaid Raza.pdf"
 import "react-pdf/dist/esm/Page/AnnotationLayer.css"; // Optional: for annotation support
 import "react-pdf/dist/esm/Page/TextLayer.css"; // Optional: for text layer support
 import { RxDoubleArrowRight } from "react-icons/rx";
@@ -51,11 +51,11 @@ const Resume = () => {
         </Document>
 
       {/* Page navigation */}
-        <div className="flex items-center justify-center mt-4 gap-4">
+        <div className="flex items-center justify-center gap-4 mt-4">
           <button
             onClick={goToPreviousPage}
             disabled={pageNumber <= 1}
-            className="text-lg text-white px-4 py-2 disabled:cursor-not-allowed cursor-pointer"
+            className="px-4 py-2 text-lg text-white cursor-pointer disabled:cursor-not-allowed"
           >
             <RxDoubleArrowLeft />
 
@@ -66,7 +66,7 @@ const Resume = () => {
           <button
             onClick={goToNextPage}
             disabled={pageNumber >= numPages}
-            className="text-lg text-white px-4 py-2 disabled:cursor-not-allowed cursor-pointer"
+            className="px-4 py-2 text-lg text-white cursor-pointer disabled:cursor-not-allowed"
           >
             <RxDoubleArrowRight />
           </button>
