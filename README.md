@@ -32,9 +32,5 @@ When I’m not coding, I enjoy ⚽ playing football and 🎮 gaming.
 
 ---
 
-## 🛠️ Getting Started
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Gideon1107/Portfolio-Website-2025.git
 
