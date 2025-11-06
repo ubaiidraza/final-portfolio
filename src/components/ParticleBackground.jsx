@@ -49,63 +49,14 @@ const ParticleBackground = () => {
     } 
 
 
-    // star particles
-    // const particlesConfig = {
-    //     fullScreen: { enable: true, zIndex: -1 }, // Ensures it covers the entire screen
-    //     background: {
-    //         color: "#000",
-    //     },
-    //     detectRetina: false,
-    //     fpsLimit: 30,
-    //     particles: {
-    //         number: {
-    //             value: 160,
-    //             density: {
-    //                 enable: true,
-    //                 value_area: 1500,
-    //             },
-    //         },
-    //         line_linked: {
-    //             enable: false,
-    //             opacity: 0.03,
-    //         },
-    //         move: {
-    //             direction: "right",
-    //             speed: 0.05,
-    //         },
-    //         size: {
-    //             value: 1,
-    //         },
-    //         opacity: {
-    //             anim: {
-    //                 enable: true,
-    //                 speed: 0.5, // Adjust speed for smoother twinkling
-    //                 opacity_min: 0.1, // Minimum opacity to make twinkling more noticeable
-    //             },
-    //         },
-    //     },
-    //     interactivity: {
-    //         events: {
-    //             onclick: {
-    //                 enable: true,
-    //                 mode: "push",
-    //             },
-    //         },
-    //         modes: {
-    //             push: {
-    //                 particles_nb: 1,
-    //             },
-    //         },
-    //     },
-    //     retina_detect: true,
-    // };
+   
 
     return (
         <>
             {init && (
                 <Particles
                     id="tsparticles"
-                    className="w-full h-screen fixed top-0 left-0 -z-10 bg-no-repeat bg-cover"
+                    className="fixed top-0 left-0 w-full h-screen bg-no-repeat bg-cover -z-10"
                     options={particlesConfig}
                 />
             )}
