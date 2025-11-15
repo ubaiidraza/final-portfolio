@@ -6,7 +6,7 @@ const projects = [
     gitLink: "https://github.com/ubaiidraza/React-Blogging-App",
     liveLink: "https://react-blogging-app-omega.vercel.app/",
     isLive: true,
-    image: "public/images/bloging.png", // ← image path
+    image: "/images/bloging.png",
   },
   {
     name: "React Password Generator",
@@ -15,7 +15,7 @@ const projects = [
     gitLink: "https://github.com/ubaiidraza/Password-Generator-Reactjs",
     liveLink: "https://password-generator-red-one-10.vercel.app/",
     isLive: true,
-    image: "public/images/passwor.jpg",
+    image: "/images/passwor.jpg",
   },
   {
     name: "Weather App",
@@ -24,7 +24,7 @@ const projects = [
     gitLink: "https://github.com/ubaiidraza/React-weather-app",
     liveLink: "https://react-weather-app-eosin-iota.vercel.app/",
     isLive: true,
-    image: "public/images/weather.png",
+    image: "/images/weather.png",
   },
   {
     name: "Todo App (ReactJS)",
@@ -33,7 +33,7 @@ const projects = [
     gitLink: "https://github.com/ubaiidraza/React-Firebase-Todo-app",
     liveLink: "https://react-firebase-todo-app-nine.vercel.app/",
     isLive: true,
-    image: "public/images/todo.png",
+    image: "/images/todo.png",
   },
   {
     name: "React Quiz App",
@@ -42,16 +42,16 @@ const projects = [
     gitLink: "https://github.com/ubaiidraza/React-Quiz-app",
     liveLink: "https://react-quiz-app-green-sigma.vercel.app/",
     isLive: true,
-    image: "public/images/quiz.png",
+    image: "/images/quiz.png",
   },
   {
     name: "Buy Sell Corner App",
     description:
       "A small-scale marketplace platform built with HTML, CSS, JavaScript, and Firebase for backend. Users can post items for sale and search for products.",
     gitLink: "https://github.com/ubaiidraza/Buy--sell-corner",
-    liveLink: "https://buy-sell-corner-caea9.web.app/",
+    liveLink: "https://buy-sell-corner-caea9.web.app/ ",
     isLive: true,
-    image: "public/images/buy sell.png",
+    image: "/images/buy sell.png",
   },
   {
     name: "Stopwatch App",
@@ -60,7 +60,7 @@ const projects = [
     gitLink: "https://github.com/ubaiidraza/Stop-Watch",
     liveLink: "https://ubaiidraza.github.io/Stop-Watch/",
     isLive: true,
-    image: "public/images/stop.png",
+    image: "/images/stop.png",
   },
   {
     name: "Phone Showcase App",
@@ -69,16 +69,16 @@ const projects = [
     gitLink: "https://github.com/ubaiidraza/phone-app-demo",
     liveLink: "https://ubaiidraza.github.io/phone-app-demo/",
     isLive: true,
-    image: "public/images/phone.png",
+    image: "/images/phone.png",
   },
   {
     name: "Salt & Pepper Website",
     description:
       "A restaurant landing page designed with modern aesthetics. Built using HTML and CSS, showcasing menu, contact, and booking info.",
     gitLink: "https://github.com/ubaiidraza/Responsive-salt-paper",
-    liveLink: "https://salt-and-peper-by-haseeb.netlify.app/",
+    liveLink: "https://responsive-salt-paper.vercel.app/",
     isLive: true,
-    image: "public/images/salt .png",
+    image: "/images/salt .png",
   },
   {
     name: "Noon App Clone",
@@ -87,7 +87,7 @@ const projects = [
     gitLink: "https://github.com/ubaiidraza/noon-com",
     liveLink: "https://noon-web-clone.netlify.app/",
     isLive: true,
-    image: "public/images/noon.png",
+    image: "/images/noon.png",
   },
 ];
 
